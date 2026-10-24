@@ -1564,10 +1564,10 @@ public class LibraryManagementSystem {
                     <span>Live Fine Estimator</span>
                     <span id="calcPreviewTypeBadge" class="type-pill book">Book</span>
                 </div>
-                <div class="calc-formula" id="calcPreviewFormula">Rule: $12.00 / day</div>
+                <div class="calc-formula" id="calcPreviewFormula">Rule:  ₹12.00 / day</div>
                 <div class="calc-total">
                     <span>Estimated Fine Due:</span>
-                    <span id="calcPreviewTotal" class="fine-zero">$0.00</span>
+                    <span id="calcPreviewTotal" class="fine-zero"> ₹0.00</span>
                 </div>
             </div>
         </div>
@@ -1616,7 +1616,7 @@ public class LibraryManagementSystem {
                     </div>
                     <div class="row fine-row">
                         <span class="fine-label">TOTAL FINE DUE:</span>
-                        <span class="fine-amount" id="rcptFineDue">$0.00</span>
+                        <span class="fine-amount" id="rcptFineDue"> ₹0.00</span>
                     </div>
                 </div>
 
@@ -1652,7 +1652,7 @@ public class LibraryManagementSystem {
                     <div>
                         <h4>Book Policy</h4>
                         <p>Standard rate applied per single day overdue with zero base penalty.</p>
-                        <div class="policy-rate-tag">Formula: days × $12.00</div>
+                        <div class="policy-rate-tag">Formula: days ×  ₹12.00</div>
                     </div>
                 </div>
 
@@ -1663,7 +1663,7 @@ public class LibraryManagementSystem {
                     <div>
                         <h4>Journal Policy</h4>
                         <p>High-value academic and research journals with an accelerated overdue rate.</p>
-                        <div class="policy-rate-tag">Formula: days × $40.00</div>
+                        <div class="policy-rate-tag">Formula: days ×  ₹40.00</div>
                     </div>
                 </div>
 
@@ -1674,7 +1674,7 @@ public class LibraryManagementSystem {
                     <div>
                         <h4>Multimedia Policy</h4>
                         <p>Equipment and masterclass video media with a fixed base charge plus daily fee.</p>
-                        <div class="policy-rate-tag">Formula: $100.00 base + (days × $15.00)</div>
+                        <div class="policy-rate-tag">Formula:  ₹100.00 base + (days ×  ₹15.00)</div>
                     </div>
                 </div>
             </div>
