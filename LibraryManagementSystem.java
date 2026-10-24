@@ -1970,19 +1970,19 @@ public class LibraryManagementSystem {
 
         if (item.type === 'Book') {
             fine = days * 12.0;
-            formulaText = `${days} day(s) overdue × $12.00 / day`;
+            formulaText = `${days} day(s) overdue ×  ₹12.00 / day`;
         } else if (item.type === 'Journal') {
             fine = days * 40.0;
-            formulaText = `${days} day(s) overdue × $40.00 / day`;
+            formulaText = `${days} day(s) overdue ×  ₹40.00 / day`;
         } else if (item.type === 'Multimedia') {
             fine = days > 0 ? (100.0 + (days * 15.0)) : 0.0;
             formulaText = days > 0
-                ? `$100.00 base + (${days} day(s) × $15.00 / day)`
+                ? `$100.00 base + (${days} day(s) ×  ₹15.00 / day)`
                 : `Returned on time ($0.00)`;
         }
 
         formulaEl.textContent = 'Formula: ' + formulaText;
-        totalEl.textContent = '$' + fine.toFixed(2);
+        totalEl.textContent = '₹' + fine.toFixed(2);
         if (fine > 0) {
             totalEl.className = 'fine-highlight';
         } else {
